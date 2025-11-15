@@ -2102,3 +2102,980 @@ ERROR 2025-11-15 11:03:44,657 tasks ❌ Processing failed for recording 9: null 
 DETAIL:  Failing row contains (8, RA RA RA RAPETITION PURR ROLONGATION AND SILENT BLOCKS, REPETITION PERROLONGATION ANDSILENT BLOCKS, ["A RA RA RA", "U", " R", " "], 33, 1.93, null, null, null, moderate, 0.74, 8.21, wav2vec2-base-960h, 2025-11-15 05:33:44.655645+00, 9).
 
 INFO 2025-11-15 11:03:44,657 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\the_3_ways_people_stutter_stuttering_slp_teacher_D8WXf31_converted.wav
+INFO 2025-11-15 11:06:16,242 tasks 🎯 Processing recording 6
+INFO 2025-11-15 11:06:16,304 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\the_3_ways_people_stutter_stuttering_slp_teacher_lJ27Ecm.mp3 to WAV format...
+INFO 2025-11-15 11:06:16,317 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\the_3_ways_people_stutter_stuttering_slp_teacher_lJ27Ecm_converted.wav
+INFO 2025-11-15 11:06:16,333 tasks 📏 Audio duration: 11.59 seconds
+INFO 2025-11-15 11:06:16,333 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:06:16,333 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:06:16,333 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\the_3_ways_people_stutter_stuttering_slp_teacher_lJ27Ecm_converted.wav
+INFO 2025-11-15 11:06:19,115 detect_stuttering 📝 Generated target transcript: repetition perrolongation andsilent blocks
+INFO 2025-11-15 11:06:23,835 detect_stuttering ✅ Analysis complete in 7.50s
+ERROR 2025-11-15 11:06:23,838 tasks ❌ Processing failed for recording 6: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (9, RA RA RA RAPETITION PURR ROLONGATION AND SILENT BLOCKS, REPETITION PERROLONGATION ANDSILENT BLOCKS, ["A RA RA RA", "U", " R", " "], 33, 1.93, null, null, null, moderate, 0.74, 7.5, wav2vec2-base-960h, 2025-11-15 05:36:23.836966+00, 6).
+
+INFO 2025-11-15 11:06:23,839 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\the_3_ways_people_stutter_stuttering_slp_teacher_lJ27Ecm_converted.wav
+INFO 2025-11-15 11:06:44,678 tasks 🎯 Processing recording 9
+INFO 2025-11-15 11:06:44,739 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\the_3_ways_people_stutter_stuttering_slp_teacher_D8WXf31.mp3 to WAV format...
+INFO 2025-11-15 11:06:44,755 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\the_3_ways_people_stutter_stuttering_slp_teacher_D8WXf31_converted.wav
+INFO 2025-11-15 11:06:44,771 tasks 📏 Audio duration: 11.59 seconds
+INFO 2025-11-15 11:06:44,771 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:06:44,771 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:06:44,771 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\the_3_ways_people_stutter_stuttering_slp_teacher_D8WXf31_converted.wav
+INFO 2025-11-15 11:06:47,398 detect_stuttering 📝 Generated target transcript: repetition perrolongation andsilent blocks
+INFO 2025-11-15 11:06:52,208 detect_stuttering ✅ Analysis complete in 7.44s
+ERROR 2025-11-15 11:06:52,208 tasks ❌ Processing failed for recording 9: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (10, RA RA RA RAPETITION PURR ROLONGATION AND SILENT BLOCKS, REPETITION PERROLONGATION ANDSILENT BLOCKS, ["A RA RA RA", "U", " R", " "], 33, 1.93, null, null, null, moderate, 0.74, 7.44, wav2vec2-base-960h, 2025-11-15 05:36:52.208344+00, 9).
+
+INFO 2025-11-15 11:06:52,208 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\the_3_ways_people_stutter_stuttering_slp_teacher_D8WXf31_converted.wav
+INFO 2025-11-15 11:20:42,307 autoreload Watching for file changes with StatReloader
+INFO 2025-11-15 11:20:47,432 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:20:59,092 views Recording 10 uploaded by kpanfas6@gmail.com
+INFO 2025-11-15 11:20:59,192 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 100
+INFO 2025-11-15 11:20:59,192 tasks 🎯 Processing recording 10
+INFO 2025-11-15 11:20:59,273 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185859015.webm to WAV format...
+INFO 2025-11-15 11:20:59,509 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185859015_converted.wav
+INFO 2025-11-15 11:20:59,518 tasks 📏 Audio duration: 5.82 seconds
+INFO 2025-11-15 11:20:59,518 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:20:59,518 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:20:59,518 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185859015_converted.wav
+INFO 2025-11-15 11:21:01,159 detect_stuttering 📝 Generated target transcript: hello hello this is unfased logepi
+INFO 2025-11-15 11:21:01,376 basehttp "GET /diagnosis/api/status/10/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:21:03,919 detect_stuttering ✅ Analysis complete in 4.40s
+ERROR 2025-11-15 11:21:03,922 tasks ❌ Processing failed for recording 10: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (11, HELLO HELLO DASYAS UNFAR AS LEGEPI, HELLO HELLO THIS IS UNFASED LOGEPI, ["DA", "YA", "R A", "E"], 24, 1.39, null, null, null, mild, 0.81, 4.4, wav2vec2-base-960h, 2025-11-15 05:51:03.919995+00, 10).
+
+INFO 2025-11-15 11:21:03,923 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185859015_converted.wav
+INFO 2025-11-15 11:21:04,173 basehttp "GET /diagnosis/api/status/10/ HTTP/1.1" 200 409
+INFO 2025-11-15 11:21:30,924 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:21:47,131 views Recording 11 uploaded by kpanfas6@gmail.com
+INFO 2025-11-15 11:21:47,134 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 100
+INFO 2025-11-15 11:21:47,136 tasks 🎯 Processing recording 11
+INFO 2025-11-15 11:21:47,233 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185906944.webm to WAV format...
+INFO 2025-11-15 11:21:47,325 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185906944_converted.wav
+INFO 2025-11-15 11:21:47,334 tasks 📏 Audio duration: 9.36 seconds
+INFO 2025-11-15 11:21:47,334 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:21:47,334 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:21:47,334 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185906944_converted.wav
+INFO 2025-11-15 11:21:49,762 detect_stuttering 📝 Generated target transcript: this is anfas an yahar norsave here because we have to develop the sinier batterway
+INFO 2025-11-15 11:21:50,256 basehttp "GET /diagnosis/api/status/11/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:21:52,203 basehttp "GET /diagnosis/api/status/11/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:21:53,403 detect_stuttering ✅ Analysis complete in 6.07s
+ERROR 2025-11-15 11:21:53,409 tasks ❌ Processing failed for recording 11: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (12, THIS IS UNFUSS AND YE HARE NOT SAFE HERE BECAUSE WE HAVE TO DILU..., THIS IS ANFAS AN YAHAR NORSAVE HERE BECAUSE WE HAVE TO DEVELOP T..., ["U", "U", "S", "D", "E ", "E", "T ", "F", "I", "U", "I", "E", "..., 18, 0.78, null, null, null, mild, 0.87, 6.07, wav2vec2-base-960h, 2025-11-15 05:51:53.403989+00, 11).
+
+INFO 2025-11-15 11:21:53,409 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185906944_converted.wav
+INFO 2025-11-15 11:21:54,168 basehttp "GET /diagnosis/api/status/11/ HTTP/1.1" 200 536
+INFO 2025-11-15 11:22:03,940 tasks 🎯 Processing recording 10
+INFO 2025-11-15 11:22:04,008 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185859015.webm to WAV format...
+INFO 2025-11-15 11:22:04,081 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185859015_converted.wav
+INFO 2025-11-15 11:22:04,092 tasks 📏 Audio duration: 5.82 seconds
+INFO 2025-11-15 11:22:04,092 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:22:04,092 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:22:04,093 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185859015_converted.wav
+INFO 2025-11-15 11:22:05,434 detect_stuttering 📝 Generated target transcript: hello hello this is unfased logepi
+INFO 2025-11-15 11:22:07,573 detect_stuttering ✅ Analysis complete in 3.48s
+ERROR 2025-11-15 11:22:07,576 tasks ❌ Processing failed for recording 10: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (13, HELLO HELLO DASYAS UNFAR AS LEGEPI, HELLO HELLO THIS IS UNFASED LOGEPI, ["DA", "YA", "R A", "E"], 24, 1.39, null, null, null, mild, 0.81, 3.48, wav2vec2-base-960h, 2025-11-15 05:52:07.574966+00, 10).
+
+INFO 2025-11-15 11:22:07,576 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185859015_converted.wav
+INFO 2025-11-15 11:22:14,208 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:22:30,567 views Recording 12 uploaded by kpanfas6@gmail.com
+INFO 2025-11-15 11:22:30,568 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 100
+INFO 2025-11-15 11:22:30,570 tasks 🎯 Processing recording 12
+INFO 2025-11-15 11:22:30,660 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185950490.webm to WAV format...
+INFO 2025-11-15 11:22:30,771 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185950490_converted.wav
+INFO 2025-11-15 11:22:30,782 tasks 📏 Audio duration: 12.48 seconds
+INFO 2025-11-15 11:22:30,782 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:22:30,783 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:22:30,783 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185950490_converted.wav
+INFO 2025-11-15 11:22:32,709 basehttp "GET /diagnosis/api/status/12/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:22:34,026 detect_stuttering 📝 Generated target transcript: this is unfascapy i build this for someone who shutters batterly shutters
+INFO 2025-11-15 11:22:35,233 basehttp "GET /diagnosis/api/status/12/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:22:37,273 basehttp "GET /diagnosis/api/status/12/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:22:39,211 basehttp "GET /diagnosis/api/status/12/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:22:39,349 detect_stuttering ✅ Analysis complete in 8.57s
+ERROR 2025-11-15 11:22:39,352 tasks ❌ Processing failed for recording 12: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (14, THIS IS UNFARSECAPPY I BUILD THIS FOR SOMEONE WHO STUCKED US BET..., THIS IS UNFASCAPY I BUILD THIS FOR SOMEONE WHO SHUTTERS BATTERLY..., ["R", "E", "P", "T", "CK", "D U", "E"], 14, 0.81, null, null, null, mild, 0.89, 8.57, wav2vec2-base-960h, 2025-11-15 05:52:39.349949+00, 12).
+
+INFO 2025-11-15 11:22:39,352 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185950490_converted.wav
+INFO 2025-11-15 11:22:40,988 basehttp "GET /diagnosis/api/status/12/ HTTP/1.1" 200 496
+INFO 2025-11-15 11:22:53,428 tasks 🎯 Processing recording 11
+INFO 2025-11-15 11:22:53,493 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185906944.webm to WAV format...
+INFO 2025-11-15 11:22:53,680 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185906944_converted.wav
+INFO 2025-11-15 11:22:53,694 tasks 📏 Audio duration: 9.36 seconds
+INFO 2025-11-15 11:22:53,695 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:22:53,695 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:22:53,695 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185906944_converted.wav
+INFO 2025-11-15 11:22:55,865 detect_stuttering 📝 Generated target transcript: this is anfas an yahar norsave here because we have to develop the sinier batterway
+INFO 2025-11-15 11:22:59,754 detect_stuttering ✅ Analysis complete in 6.06s
+ERROR 2025-11-15 11:22:59,755 tasks ❌ Processing failed for recording 11: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (15, THIS IS UNFUSS AND YE HARE NOT SAFE HERE BECAUSE WE HAVE TO DILU..., THIS IS ANFAS AN YAHAR NORSAVE HERE BECAUSE WE HAVE TO DEVELOP T..., ["U", "U", "S", "D", "E ", "E", "T ", "F", "I", "U", "I", "E", "..., 18, 0.78, null, null, null, mild, 0.87, 6.06, wav2vec2-base-960h, 2025-11-15 05:52:59.755581+00, 11).
+
+INFO 2025-11-15 11:22:59,755 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185906944_converted.wav
+INFO 2025-11-15 11:23:04,700 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:23:25,992 views Recording 13 uploaded by kpanfas6@gmail.com
+INFO 2025-11-15 11:23:25,992 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 100
+INFO 2025-11-15 11:23:25,992 tasks 🎯 Processing recording 13
+INFO 2025-11-15 11:23:26,070 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186005916.webm to WAV format...
+INFO 2025-11-15 11:23:26,190 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186005916_converted.wav
+INFO 2025-11-15 11:23:26,200 tasks 📏 Audio duration: 15.54 seconds
+INFO 2025-11-15 11:23:26,200 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:23:26,200 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:23:26,200 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186005916_converted.wav
+INFO 2025-11-15 11:23:28,138 basehttp "GET /diagnosis/api/status/13/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:23:30,111 basehttp "GET /diagnosis/api/status/13/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:23:30,390 detect_stuttering 📝 Generated target transcript: they actually built a recordivor voice for a i-powered shattering analysis and my name is muhammad setune
+INFO 2025-11-15 11:23:32,356 basehttp "GET /diagnosis/api/status/13/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:23:34,280 basehttp "GET /diagnosis/api/status/13/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:23:36,362 basehttp "GET /diagnosis/api/status/13/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:23:37,344 detect_stuttering ✅ Analysis complete in 11.14s
+ERROR 2025-11-15 11:23:37,346 tasks ❌ Processing failed for recording 13: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (16, WE ACTUALLY BUILT A RECORDI VOR VOICE FOR A A PAVORD SHATTERING ..., THEY ACTUALLY BUILT A RECORDIVOR VOICE FOR A I-POWERED SHATTERIN..., ["W", " ", "A ", "AV", "D ", "CI", "O", "AD TOO"], 16, 1.15, null, null, null, mild, 0.86, 11.14, wav2vec2-base-960h, 2025-11-15 05:53:37.344496+00, 13).
+
+INFO 2025-11-15 11:23:37,346 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186005916_converted.wav
+INFO 2025-11-15 11:23:38,168 basehttp "GET /diagnosis/api/status/13/ HTTP/1.1" 200 510
+INFO 2025-11-15 11:23:39,361 tasks 🎯 Processing recording 12
+INFO 2025-11-15 11:23:39,428 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185950490.webm to WAV format...
+INFO 2025-11-15 11:23:39,505 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185950490_converted.wav
+INFO 2025-11-15 11:23:39,510 tasks 📏 Audio duration: 12.48 seconds
+INFO 2025-11-15 11:23:39,510 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:23:39,510 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:23:39,510 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185950490_converted.wav
+INFO 2025-11-15 11:23:42,988 detect_stuttering 📝 Generated target transcript: this is unfascapy i build this for someone who shutters batterly shutters
+INFO 2025-11-15 11:23:48,578 detect_stuttering ✅ Analysis complete in 9.07s
+ERROR 2025-11-15 11:23:48,580 tasks ❌ Processing failed for recording 12: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (17, THIS IS UNFARSECAPPY I BUILD THIS FOR SOMEONE WHO STUCKED US BET..., THIS IS UNFASCAPY I BUILD THIS FOR SOMEONE WHO SHUTTERS BATTERLY..., ["R", "E", "P", "T", "CK", "D U", "E"], 14, 0.81, null, null, null, mild, 0.89, 9.07, wav2vec2-base-960h, 2025-11-15 05:53:48.578794+00, 12).
+
+INFO 2025-11-15 11:23:48,581 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185950490_converted.wav
+INFO 2025-11-15 11:24:07,584 tasks 🎯 Processing recording 10
+INFO 2025-11-15 11:24:07,651 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185859015.webm to WAV format...
+INFO 2025-11-15 11:24:07,718 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185859015_converted.wav
+INFO 2025-11-15 11:24:07,727 tasks 📏 Audio duration: 5.82 seconds
+INFO 2025-11-15 11:24:07,728 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:24:07,728 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:24:07,728 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185859015_converted.wav
+INFO 2025-11-15 11:24:09,020 detect_stuttering 📝 Generated target transcript: hello hello this is unfased logepi
+INFO 2025-11-15 11:24:11,145 detect_stuttering ✅ Analysis complete in 3.42s
+ERROR 2025-11-15 11:24:11,150 tasks ❌ Processing failed for recording 10: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (18, HELLO HELLO DASYAS UNFAR AS LEGEPI, HELLO HELLO THIS IS UNFASED LOGEPI, ["DA", "YA", "R A", "E"], 24, 1.39, null, null, null, mild, 0.81, 3.42, wav2vec2-base-960h, 2025-11-15 05:54:11.150305+00, 10).
+
+INFO 2025-11-15 11:24:11,152 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185859015_converted.wav
+INFO 2025-11-15 11:24:21,510 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:24:33,648 views Recording 14 uploaded by kpanfas6@gmail.com
+INFO 2025-11-15 11:24:33,648 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 100
+INFO 2025-11-15 11:24:33,648 tasks 🎯 Processing recording 14
+INFO 2025-11-15 11:24:33,728 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186073575.webm to WAV format...
+INFO 2025-11-15 11:24:33,820 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186073575_converted.wav
+INFO 2025-11-15 11:24:33,831 tasks 📏 Audio duration: 8.64 seconds
+INFO 2025-11-15 11:24:33,831 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:24:33,831 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:24:33,832 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186073575_converted.wav
+INFO 2025-11-15 11:24:36,130 detect_stuttering 📝 Generated target transcript: this is a test and we can overcome this by analysis
+INFO 2025-11-15 11:24:36,278 basehttp "GET /diagnosis/api/status/14/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:24:37,366 tasks 🎯 Processing recording 13
+INFO 2025-11-15 11:24:37,475 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186005916.webm to WAV format...
+INFO 2025-11-15 11:24:37,610 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186005916_converted.wav
+INFO 2025-11-15 11:24:37,626 tasks 📏 Audio duration: 15.54 seconds
+INFO 2025-11-15 11:24:37,626 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:24:37,626 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:24:37,626 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186005916_converted.wav
+INFO 2025-11-15 11:24:38,459 basehttp "GET /diagnosis/api/status/14/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:24:40,320 basehttp "GET /diagnosis/api/status/14/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:24:42,062 detect_stuttering ✅ Analysis complete in 8.23s
+ERROR 2025-11-15 11:24:42,068 tasks ❌ Processing failed for recording 14: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (19, THIS IS A TASTIC AND WE CAN OVERCOME THIS BY AN ALISIS, THIS IS A TEST AND WE CAN OVERCOME THIS BY ANALYSIS, ["A", "IC", " ", "I"], 10, 0.41, null, null, null, mild, 0.93, 8.23, wav2vec2-base-960h, 2025-11-15 05:54:42.064209+00, 14).
+
+INFO 2025-11-15 11:24:42,068 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186073575_converted.wav
+INFO 2025-11-15 11:24:42,278 basehttp "GET /diagnosis/api/status/14/ HTTP/1.1" 200 444
+INFO 2025-11-15 11:24:43,188 detect_stuttering 📝 Generated target transcript: they actually built a recordivor voice for a i-powered shattering analysis and my name is muhammad setune
+INFO 2025-11-15 11:24:50,798 detect_stuttering ✅ Analysis complete in 13.17s
+ERROR 2025-11-15 11:24:50,798 tasks ❌ Processing failed for recording 13: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (20, WE ACTUALLY BUILT A RECORDI VOR VOICE FOR A A PAVORD SHATTERING ..., THEY ACTUALLY BUILT A RECORDIVOR VOICE FOR A I-POWERED SHATTERIN..., ["W", " ", "A ", "AV", "D ", "CI", "O", "AD TOO"], 16, 1.15, null, null, null, mild, 0.86, 13.17, wav2vec2-base-960h, 2025-11-15 05:54:50.798335+00, 13).
+
+INFO 2025-11-15 11:24:50,802 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186005916_converted.wav
+INFO 2025-11-15 11:24:59,775 tasks 🎯 Processing recording 11
+INFO 2025-11-15 11:24:59,860 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185906944.webm to WAV format...
+INFO 2025-11-15 11:24:59,940 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185906944_converted.wav
+INFO 2025-11-15 11:24:59,951 tasks 📏 Audio duration: 9.36 seconds
+INFO 2025-11-15 11:24:59,951 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:24:59,951 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:24:59,952 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185906944_converted.wav
+INFO 2025-11-15 11:25:02,298 detect_stuttering 📝 Generated target transcript: this is anfas an yahar norsave here because we have to develop the sinier batterway
+INFO 2025-11-15 11:25:06,325 detect_stuttering ✅ Analysis complete in 6.37s
+ERROR 2025-11-15 11:25:06,326 tasks ❌ Processing failed for recording 11: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (21, THIS IS UNFUSS AND YE HARE NOT SAFE HERE BECAUSE WE HAVE TO DILU..., THIS IS ANFAS AN YAHAR NORSAVE HERE BECAUSE WE HAVE TO DEVELOP T..., ["U", "U", "S", "D", "E ", "E", "T ", "F", "I", "U", "I", "E", "..., 18, 0.78, null, null, null, mild, 0.87, 6.37, wav2vec2-base-960h, 2025-11-15 05:55:06.32597+00, 11).
+
+INFO 2025-11-15 11:25:06,328 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185906944_converted.wav
+INFO 2025-11-15 11:25:12,098 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:25:42,099 tasks 🎯 Processing recording 14
+INFO 2025-11-15 11:25:42,166 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186073575.webm to WAV format...
+INFO 2025-11-15 11:25:42,244 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186073575_converted.wav
+INFO 2025-11-15 11:25:42,258 tasks 📏 Audio duration: 8.64 seconds
+INFO 2025-11-15 11:25:42,258 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:25:42,258 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:25:42,258 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186073575_converted.wav
+INFO 2025-11-15 11:25:44,286 detect_stuttering 📝 Generated target transcript: this is a test and we can overcome this by analysis
+INFO 2025-11-15 11:25:47,692 detect_stuttering ✅ Analysis complete in 5.43s
+ERROR 2025-11-15 11:25:47,692 tasks ❌ Processing failed for recording 14: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (22, THIS IS A TASTIC AND WE CAN OVERCOME THIS BY AN ALISIS, THIS IS A TEST AND WE CAN OVERCOME THIS BY ANALYSIS, ["A", "IC", " ", "I"], 10, 0.41, null, null, null, mild, 0.93, 5.43, wav2vec2-base-960h, 2025-11-15 05:55:47.692778+00, 14).
+
+INFO 2025-11-15 11:25:47,692 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186073575_converted.wav
+INFO 2025-11-15 11:25:48,584 tasks 🎯 Processing recording 12
+INFO 2025-11-15 11:25:48,648 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185950490.webm to WAV format...
+INFO 2025-11-15 11:25:48,737 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185950490_converted.wav
+INFO 2025-11-15 11:25:48,739 tasks 📏 Audio duration: 12.48 seconds
+INFO 2025-11-15 11:25:48,739 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:25:48,739 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:25:48,739 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185950490_converted.wav
+INFO 2025-11-15 11:25:51,836 detect_stuttering 📝 Generated target transcript: this is unfascapy i build this for someone who shutters batterly shutters
+INFO 2025-11-15 11:25:57,176 detect_stuttering ✅ Analysis complete in 8.44s
+ERROR 2025-11-15 11:25:57,177 tasks ❌ Processing failed for recording 12: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (23, THIS IS UNFARSECAPPY I BUILD THIS FOR SOMEONE WHO STUCKED US BET..., THIS IS UNFASCAPY I BUILD THIS FOR SOMEONE WHO SHUTTERS BATTERLY..., ["R", "E", "P", "T", "CK", "D U", "E"], 14, 0.81, null, null, null, mild, 0.89, 8.44, wav2vec2-base-960h, 2025-11-15 05:55:57.176018+00, 12).
+
+INFO 2025-11-15 11:25:57,179 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185950490_converted.wav
+INFO 2025-11-15 11:26:44,815 views Recording 15 uploaded by kpanfas6@gmail.com
+INFO 2025-11-15 11:26:44,815 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 100
+INFO 2025-11-15 11:26:44,815 tasks 🎯 Processing recording 15
+INFO 2025-11-15 11:26:44,898 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186204743.webm to WAV format...
+INFO 2025-11-15 11:26:44,975 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186204743_converted.wav
+INFO 2025-11-15 11:26:44,987 tasks 📏 Audio duration: 5.34 seconds
+INFO 2025-11-15 11:26:44,988 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:26:44,988 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:26:44,988 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186204743_converted.wav
+INFO 2025-11-15 11:26:46,194 detect_stuttering 📝 Generated target transcript: starting recording i'm starting recording
+INFO 2025-11-15 11:26:46,944 basehttp "GET /diagnosis/api/status/15/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:26:48,224 detect_stuttering ✅ Analysis complete in 3.24s
+ERROR 2025-11-15 11:26:48,224 tasks ❌ Processing failed for recording 15: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (24, STARTING RAGOADIN AM STACTING RAGORDY, STARTING RECORDING I'M STARTING RECORDING, ["AG", "A", "A", "C", "AG"], 17, 1.03, null, null, null, mild, 0.86, 3.24, wav2vec2-base-960h, 2025-11-15 05:56:48.224514+00, 15).
+
+INFO 2025-11-15 11:26:48,224 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186204743_converted.wav
+INFO 2025-11-15 11:26:48,894 basehttp "GET /diagnosis/api/status/15/ HTTP/1.1" 200 425
+INFO 2025-11-15 11:26:50,824 tasks 🎯 Processing recording 13
+INFO 2025-11-15 11:26:50,894 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186005916.webm to WAV format...
+INFO 2025-11-15 11:26:51,000 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186005916_converted.wav
+INFO 2025-11-15 11:26:51,010 tasks 📏 Audio duration: 15.54 seconds
+INFO 2025-11-15 11:26:51,011 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:26:51,011 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:26:51,011 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186005916_converted.wav
+INFO 2025-11-15 11:26:55,187 detect_stuttering 📝 Generated target transcript: they actually built a recordivor voice for a i-powered shattering analysis and my name is muhammad setune
+INFO 2025-11-15 11:27:02,599 detect_stuttering ✅ Analysis complete in 11.59s
+ERROR 2025-11-15 11:27:02,601 tasks ❌ Processing failed for recording 13: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (25, WE ACTUALLY BUILT A RECORDI VOR VOICE FOR A A PAVORD SHATTERING ..., THEY ACTUALLY BUILT A RECORDIVOR VOICE FOR A I-POWERED SHATTERIN..., ["W", " ", "A ", "AV", "D ", "CI", "O", "AD TOO"], 16, 1.15, null, null, null, mild, 0.86, 11.59, wav2vec2-base-960h, 2025-11-15 05:57:02.600492+00, 13).
+
+INFO 2025-11-15 11:27:02,603 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186005916_converted.wav
+INFO 2025-11-15 11:27:11,160 tasks 🎯 Processing recording 10
+INFO 2025-11-15 11:27:11,235 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185859015.webm to WAV format...
+INFO 2025-11-15 11:27:11,301 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185859015_converted.wav
+INFO 2025-11-15 11:27:11,313 tasks 📏 Audio duration: 5.82 seconds
+INFO 2025-11-15 11:27:11,313 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:27:11,314 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:27:11,314 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185859015_converted.wav
+INFO 2025-11-15 11:27:12,659 detect_stuttering 📝 Generated target transcript: hello hello this is unfased logepi
+INFO 2025-11-15 11:27:14,886 detect_stuttering ✅ Analysis complete in 3.57s
+ERROR 2025-11-15 11:27:14,888 tasks ❌ Processing failed for recording 10: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (26, HELLO HELLO DASYAS UNFAR AS LEGEPI, HELLO HELLO THIS IS UNFASED LOGEPI, ["DA", "YA", "R A", "E"], 24, 1.39, null, null, null, mild, 0.81, 3.57, wav2vec2-base-960h, 2025-11-15 05:57:14.887201+00, 10).
+
+INFO 2025-11-15 11:27:14,889 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185859015_converted.wav
+INFO 2025-11-15 11:27:20,208 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:27:43,530 views Recording 16 uploaded by kpanfas6@gmail.com
+INFO 2025-11-15 11:27:43,532 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 100
+INFO 2025-11-15 11:27:43,534 tasks 🎯 Processing recording 16
+INFO 2025-11-15 11:27:43,613 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186263347.webm to WAV format...
+INFO 2025-11-15 11:27:43,697 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186263347_converted.wav
+INFO 2025-11-15 11:27:43,711 tasks 📏 Audio duration: 8.82 seconds
+INFO 2025-11-15 11:27:43,711 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:27:43,711 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:27:43,711 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186263347_converted.wav
+INFO 2025-11-15 11:27:45,655 basehttp "GET /diagnosis/api/status/16/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:27:45,831 detect_stuttering 📝 Generated target transcript: speak clearly and natural speak cleaaarly and naturaly
+INFO 2025-11-15 11:27:47,725 tasks 🎯 Processing recording 14
+INFO 2025-11-15 11:27:47,851 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186073575.webm to WAV format...
+INFO 2025-11-15 11:27:48,050 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186073575_converted.wav
+INFO 2025-11-15 11:27:48,107 tasks 📏 Audio duration: 8.64 seconds
+INFO 2025-11-15 11:27:48,109 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:27:48,109 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:27:48,110 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186073575_converted.wav
+INFO 2025-11-15 11:27:48,443 basehttp "GET /diagnosis/api/status/16/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:27:50,320 basehttp "GET /diagnosis/api/status/16/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:27:51,939 detect_stuttering ✅ Analysis complete in 8.23s
+ERROR 2025-11-15 11:27:51,944 tasks ❌ Processing failed for recording 16: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (27, SPEAK CLEARLY AND NATURAL SPEAK CLEARLY AND NATURAL, SPEAK CLEARLY AND NATURAL SPEAK CLEAAARLY AND NATURALY, [], 0, 0.45, null, null, null, none, 0.98, 8.23, wav2vec2-base-960h, 2025-11-15 05:57:51.941278+00, 16).
+
+INFO 2025-11-15 11:27:51,946 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186263347_converted.wav
+INFO 2025-11-15 11:27:52,317 detect_stuttering 📝 Generated target transcript: this is a test and we can overcome this by analysis
+INFO 2025-11-15 11:27:52,335 basehttp "GET /diagnosis/api/status/16/ HTTP/1.1" 200 416
+INFO 2025-11-15 11:27:56,624 detect_stuttering ✅ Analysis complete in 8.51s
+ERROR 2025-11-15 11:27:56,626 tasks ❌ Processing failed for recording 14: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (28, THIS IS A TASTIC AND WE CAN OVERCOME THIS BY AN ALISIS, THIS IS A TEST AND WE CAN OVERCOME THIS BY ANALYSIS, ["A", "IC", " ", "I"], 10, 0.41, null, null, null, mild, 0.93, 8.51, wav2vec2-base-960h, 2025-11-15 05:57:56.626308+00, 14).
+
+INFO 2025-11-15 11:27:56,626 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186073575_converted.wav
+INFO 2025-11-15 11:27:56,648 tasks 🎯 Processing recording 15
+INFO 2025-11-15 11:27:56,737 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186204743.webm to WAV format...
+INFO 2025-11-15 11:27:56,807 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186204743_converted.wav
+INFO 2025-11-15 11:27:56,821 tasks 📏 Audio duration: 5.34 seconds
+INFO 2025-11-15 11:27:56,821 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:27:56,822 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:27:56,822 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186204743_converted.wav
+INFO 2025-11-15 11:27:58,136 detect_stuttering 📝 Generated target transcript: starting recording i'm starting recording
+INFO 2025-11-15 11:28:00,298 detect_stuttering ✅ Analysis complete in 3.48s
+ERROR 2025-11-15 11:28:00,301 tasks ❌ Processing failed for recording 15: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (29, STARTING RAGOADIN AM STACTING RAGORDY, STARTING RECORDING I'M STARTING RECORDING, ["AG", "A", "A", "C", "AG"], 17, 1.03, null, null, null, mild, 0.86, 3.48, wav2vec2-base-960h, 2025-11-15 05:58:00.299726+00, 15).
+
+INFO 2025-11-15 11:28:00,302 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186204743_converted.wav
+INFO 2025-11-15 11:28:06,325 tasks 🎯 Processing recording 11
+INFO 2025-11-15 11:28:06,392 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185906944.webm to WAV format...
+INFO 2025-11-15 11:28:06,471 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185906944_converted.wav
+INFO 2025-11-15 11:28:06,483 tasks 📏 Audio duration: 9.36 seconds
+INFO 2025-11-15 11:28:06,483 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:28:06,483 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:28:06,483 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185906944_converted.wav
+INFO 2025-11-15 11:28:08,769 detect_stuttering 📝 Generated target transcript: this is anfas an yahar norsave here because we have to develop the sinier batterway
+INFO 2025-11-15 11:28:12,900 detect_stuttering ✅ Analysis complete in 6.42s
+ERROR 2025-11-15 11:28:12,902 tasks ❌ Processing failed for recording 11: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (30, THIS IS UNFUSS AND YE HARE NOT SAFE HERE BECAUSE WE HAVE TO DILU..., THIS IS ANFAS AN YAHAR NORSAVE HERE BECAUSE WE HAVE TO DEVELOP T..., ["U", "U", "S", "D", "E ", "E", "T ", "F", "I", "U", "I", "E", "..., 18, 0.78, null, null, null, mild, 0.87, 6.42, wav2vec2-base-960h, 2025-11-15 05:58:12.901898+00, 11).
+
+INFO 2025-11-15 11:28:12,903 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185906944_converted.wav
+INFO 2025-11-15 11:28:32,225 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:28:51,531 views Recording 17 uploaded by kpanfas6@gmail.com
+INFO 2025-11-15 11:28:51,537 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 100
+INFO 2025-11-15 11:28:51,537 tasks 🎯 Processing recording 17
+INFO 2025-11-15 11:28:51,614 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186331460.webm to WAV format...
+INFO 2025-11-15 11:28:51,699 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186331460_converted.wav
+INFO 2025-11-15 11:28:51,711 tasks 📏 Audio duration: 7.20 seconds
+INFO 2025-11-15 11:28:51,711 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:28:51,711 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:28:51,711 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186331460_converted.wav
+INFO 2025-11-15 11:28:51,988 tasks 🎯 Processing recording 16
+INFO 2025-11-15 11:28:52,106 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186263347.webm to WAV format...
+INFO 2025-11-15 11:28:52,221 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186263347_converted.wav
+INFO 2025-11-15 11:28:52,239 tasks 📏 Audio duration: 8.82 seconds
+INFO 2025-11-15 11:28:52,239 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:28:52,239 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:28:52,239 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186263347_converted.wav
+INFO 2025-11-15 11:28:53,767 basehttp "GET /diagnosis/api/status/17/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:28:54,281 detect_stuttering 📝 Generated target transcript: you can review your recording before upplading
+INFO 2025-11-15 11:28:55,480 detect_stuttering 📝 Generated target transcript: speak clearly and natural speak cleaaarly and naturaly
+INFO 2025-11-15 11:28:55,765 basehttp "GET /diagnosis/api/status/17/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:28:57,728 basehttp "GET /diagnosis/api/status/17/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:28:59,543 detect_stuttering ✅ Analysis complete in 7.83s
+ERROR 2025-11-15 11:28:59,546 tasks ❌ Processing failed for recording 17: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (31, AH YOU CAN A REVIEW YOU WERE ACCORING BEFORE APPLADING, YOU CAN REVIEW YOUR RECORDING BEFORE UPPLADING, ["AH ", "A ", "WE", " A", "C", "A"], 24, 1.4, null, null, null, mild, 0.81, 7.83, wav2vec2-base-960h, 2025-11-15 05:58:59.544439+00, 17).
+
+INFO 2025-11-15 11:28:59,549 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186331460_converted.wav
+INFO 2025-11-15 11:28:59,689 basehttp "GET /diagnosis/api/status/17/ HTTP/1.1" 200 456
+INFO 2025-11-15 11:29:01,148 detect_stuttering ✅ Analysis complete in 8.91s
+ERROR 2025-11-15 11:29:01,151 tasks ❌ Processing failed for recording 16: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (32, SPEAK CLEARLY AND NATURAL SPEAK CLEARLY AND NATURAL, SPEAK CLEARLY AND NATURAL SPEAK CLEAAARLY AND NATURALY, [], 0, 0.45, null, null, null, none, 0.98, 8.91, wav2vec2-base-960h, 2025-11-15 05:59:01.148902+00, 16).
+
+INFO 2025-11-15 11:29:01,151 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186263347_converted.wav
+INFO 2025-11-15 11:29:01,167 tasks 🎯 Processing recording 12
+INFO 2025-11-15 11:29:01,253 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185950490.webm to WAV format...
+INFO 2025-11-15 11:29:01,353 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185950490_converted.wav
+INFO 2025-11-15 11:29:01,365 tasks 📏 Audio duration: 12.48 seconds
+INFO 2025-11-15 11:29:01,367 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:29:01,367 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:29:01,367 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185950490_converted.wav
+INFO 2025-11-15 11:29:04,688 detect_stuttering 📝 Generated target transcript: this is unfascapy i build this for someone who shutters batterly shutters
+INFO 2025-11-15 11:29:04,783 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:29:10,831 detect_stuttering ✅ Analysis complete in 9.46s
+ERROR 2025-11-15 11:29:10,833 tasks ❌ Processing failed for recording 12: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (33, THIS IS UNFARSECAPPY I BUILD THIS FOR SOMEONE WHO STUCKED US BET..., THIS IS UNFASCAPY I BUILD THIS FOR SOMEONE WHO SHUTTERS BATTERLY..., ["R", "E", "P", "T", "CK", "D U", "E"], 14, 0.81, null, null, null, mild, 0.89, 9.46, wav2vec2-base-960h, 2025-11-15 05:59:10.831565+00, 12).
+
+INFO 2025-11-15 11:29:10,834 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763185950490_converted.wav
+INFO 2025-11-15 11:29:20,636 views Recording 18 uploaded by kpanfas6@gmail.com
+INFO 2025-11-15 11:29:20,641 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 100
+INFO 2025-11-15 11:29:20,645 tasks 🎯 Processing recording 18
+INFO 2025-11-15 11:29:20,825 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186360418.webm to WAV format...
+INFO 2025-11-15 11:29:21,116 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186360418_converted.wav
+INFO 2025-11-15 11:29:21,146 tasks 📏 Audio duration: 8.52 seconds
+INFO 2025-11-15 11:29:21,146 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:29:21,146 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:29:21,146 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186360418_converted.wav
+INFO 2025-11-15 11:29:22,899 basehttp "GET /diagnosis/api/status/18/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:29:24,883 basehttp "GET /diagnosis/api/status/18/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:29:25,285 detect_stuttering 📝 Generated target transcript: you can review your recording beforre uploading
+INFO 2025-11-15 11:29:26,890 basehttp "GET /diagnosis/api/status/18/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:29:28,958 basehttp "GET /diagnosis/api/status/18/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:29:30,887 basehttp "GET /diagnosis/api/status/18/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:29:32,228 detect_stuttering ✅ Analysis complete in 11.08s
+ERROR 2025-11-15 11:29:32,234 tasks ❌ Processing failed for recording 18: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (34, YOU CAN REVIEW YOU WERE RACCORDIN BEFRE APPLAUDING, YOU CAN REVIEW YOUR RECORDING BEFORRE UPLOADING, [" WE", "E", "A", "C", "A", "P", "U"], 19, 1.09, null, null, null, mild, 0.85, 11.08, wav2vec2-base-960h, 2025-11-15 05:59:32.23043+00, 18).
+
+INFO 2025-11-15 11:29:32,235 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186360418_converted.wav
+INFO 2025-11-15 11:29:32,922 basehttp "GET /diagnosis/api/status/18/ HTTP/1.1" 200 458
+INFO 2025-11-15 11:29:45,098 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:29:59,570 tasks 🎯 Processing recording 17
+INFO 2025-11-15 11:29:59,647 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186331460.webm to WAV format...
+INFO 2025-11-15 11:29:59,725 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186331460_converted.wav
+INFO 2025-11-15 11:29:59,736 tasks 📏 Audio duration: 7.20 seconds
+INFO 2025-11-15 11:29:59,736 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:29:59,736 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:29:59,736 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186331460_converted.wav
+INFO 2025-11-15 11:30:01,630 detect_stuttering 📝 Generated target transcript: you can review your recording before upplading
+INFO 2025-11-15 11:30:04,953 detect_stuttering ✅ Analysis complete in 5.22s
+ERROR 2025-11-15 11:30:04,955 tasks ❌ Processing failed for recording 17: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (35, AH YOU CAN A REVIEW YOU WERE ACCORING BEFORE APPLADING, YOU CAN REVIEW YOUR RECORDING BEFORE UPPLADING, ["AH ", "A ", "WE", " A", "C", "A"], 24, 1.4, null, null, null, mild, 0.81, 5.22, wav2vec2-base-960h, 2025-11-15 06:00:04.954758+00, 17).
+
+INFO 2025-11-15 11:30:04,956 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186331460_converted.wav
+INFO 2025-11-15 11:30:04,972 tasks 🎯 Processing recording 15
+INFO 2025-11-15 11:30:05,064 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186204743.webm to WAV format...
+INFO 2025-11-15 11:30:05,134 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186204743_converted.wav
+INFO 2025-11-15 11:30:05,147 tasks 📏 Audio duration: 5.34 seconds
+INFO 2025-11-15 11:30:05,148 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:30:05,148 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:30:05,148 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186204743_converted.wav
+INFO 2025-11-15 11:30:06,466 detect_stuttering 📝 Generated target transcript: starting recording i'm starting recording
+INFO 2025-11-15 11:30:07,247 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:30:08,740 detect_stuttering ✅ Analysis complete in 3.59s
+ERROR 2025-11-15 11:30:08,743 tasks ❌ Processing failed for recording 15: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (36, STARTING RAGOADIN AM STACTING RAGORDY, STARTING RECORDING I'M STARTING RECORDING, ["AG", "A", "A", "C", "AG"], 17, 1.03, null, null, null, mild, 0.86, 3.59, wav2vec2-base-960h, 2025-11-15 06:00:08.741837+00, 15).
+
+INFO 2025-11-15 11:30:08,745 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186204743_converted.wav
+INFO 2025-11-15 11:30:08,767 tasks 🎯 Processing recording 13
+INFO 2025-11-15 11:30:08,869 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186005916.webm to WAV format...
+INFO 2025-11-15 11:30:08,983 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186005916_converted.wav
+INFO 2025-11-15 11:30:08,998 tasks 📏 Audio duration: 15.54 seconds
+INFO 2025-11-15 11:30:08,998 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:30:08,999 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:30:08,999 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186005916_converted.wav
+INFO 2025-11-15 11:30:13,451 detect_stuttering 📝 Generated target transcript: they actually built a recordivor voice for a i-powered shattering analysis and my name is muhammad setune
+INFO 2025-11-15 11:30:19,675 views Recording 19 uploaded by kpanfas6@gmail.com
+INFO 2025-11-15 11:30:19,679 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 100
+INFO 2025-11-15 11:30:19,680 tasks 🎯 Processing recording 19
+INFO 2025-11-15 11:30:19,838 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186419537.webm to WAV format...
+INFO 2025-11-15 11:30:19,985 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186419537_converted.wav
+INFO 2025-11-15 11:30:20,024 tasks 📏 Audio duration: 6.78 seconds
+INFO 2025-11-15 11:30:20,025 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:30:20,025 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:30:20,026 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186419537_converted.wav
+INFO 2025-11-15 11:30:21,912 basehttp "GET /diagnosis/api/status/19/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:30:23,028 detect_stuttering ✅ Analysis complete in 14.03s
+ERROR 2025-11-15 11:30:23,032 tasks ❌ Processing failed for recording 13: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (37, WE ACTUALLY BUILT A RECORDI VOR VOICE FOR A A PAVORD SHATTERING ..., THEY ACTUALLY BUILT A RECORDIVOR VOICE FOR A I-POWERED SHATTERIN..., ["W", " ", "A ", "AV", "D ", "CI", "O", "AD TOO"], 16, 1.15, null, null, null, mild, 0.86, 14.03, wav2vec2-base-960h, 2025-11-15 06:00:23.029483+00, 13).
+
+INFO 2025-11-15 11:30:23,034 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186005916_converted.wav
+INFO 2025-11-15 11:30:23,074 detect_stuttering 📝 Generated target transcript: non began speak in english alkt
+INFO 2025-11-15 11:30:24,235 basehttp "GET /diagnosis/api/status/19/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:30:25,972 detect_stuttering ✅ Analysis complete in 5.94s
+ERROR 2025-11-15 11:30:25,974 tasks ❌ Processing failed for recording 19: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (38, NO BEGAN SPEAK IN ENGLISH ALG, NON BEGAN SPEAK IN ENGLISH ALKT, [], 0, 0.77, null, null, null, none, 0.96, 5.94, wav2vec2-base-960h, 2025-11-15 06:00:25.973017+00, 19).
+
+INFO 2025-11-15 11:30:25,975 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186419537_converted.wav
+INFO 2025-11-15 11:30:26,277 basehttp "GET /diagnosis/api/status/19/ HTTP/1.1" 200 371
+INFO 2025-11-15 11:30:32,266 tasks 🎯 Processing recording 18
+INFO 2025-11-15 11:30:32,333 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186360418.webm to WAV format...
+INFO 2025-11-15 11:30:32,411 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186360418_converted.wav
+INFO 2025-11-15 11:30:32,420 tasks 📏 Audio duration: 8.52 seconds
+INFO 2025-11-15 11:30:32,420 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:30:32,420 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:30:32,420 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186360418_converted.wav
+INFO 2025-11-15 11:30:34,471 detect_stuttering 📝 Generated target transcript: you can review your recording beforre uploading
+INFO 2025-11-15 11:30:38,201 detect_stuttering ✅ Analysis complete in 5.78s
+ERROR 2025-11-15 11:30:38,204 tasks ❌ Processing failed for recording 18: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (39, YOU CAN REVIEW YOU WERE RACCORDIN BEFRE APPLAUDING, YOU CAN REVIEW YOUR RECORDING BEFORRE UPLOADING, [" WE", "E", "A", "C", "A", "P", "U"], 19, 1.09, null, null, null, mild, 0.85, 5.78, wav2vec2-base-960h, 2025-11-15 06:00:38.202846+00, 18).
+
+INFO 2025-11-15 11:30:38,205 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186360418_converted.wav
+INFO 2025-11-15 11:30:56,648 tasks 🎯 Processing recording 14
+INFO 2025-11-15 11:30:56,712 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186073575.webm to WAV format...
+INFO 2025-11-15 11:30:56,892 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186073575_converted.wav
+INFO 2025-11-15 11:30:56,907 tasks 📏 Audio duration: 8.64 seconds
+INFO 2025-11-15 11:30:56,907 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:30:56,908 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:30:56,908 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186073575_converted.wav
+INFO 2025-11-15 11:30:58,997 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:30:59,325 detect_stuttering 📝 Generated target transcript: this is a test and we can overcome this by analysis
+INFO 2025-11-15 11:31:03,258 detect_stuttering ✅ Analysis complete in 6.35s
+ERROR 2025-11-15 11:31:03,258 tasks ❌ Processing failed for recording 14: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (40, THIS IS A TASTIC AND WE CAN OVERCOME THIS BY AN ALISIS, THIS IS A TEST AND WE CAN OVERCOME THIS BY ANALYSIS, ["A", "IC", " ", "I"], 10, 0.41, null, null, null, mild, 0.93, 6.35, wav2vec2-base-960h, 2025-11-15 06:01:03.258685+00, 14).
+
+INFO 2025-11-15 11:31:03,258 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186073575_converted.wav
+INFO 2025-11-15 11:31:03,284 tasks 🎯 Processing recording 16
+INFO 2025-11-15 11:31:03,364 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186263347.webm to WAV format...
+INFO 2025-11-15 11:31:03,444 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186263347_converted.wav
+INFO 2025-11-15 11:31:03,444 tasks 📏 Audio duration: 8.82 seconds
+INFO 2025-11-15 11:31:03,444 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:31:03,444 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:31:03,444 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186263347_converted.wav
+INFO 2025-11-15 11:31:05,542 detect_stuttering 📝 Generated target transcript: speak clearly and natural speak cleaaarly and naturaly
+INFO 2025-11-15 11:31:09,311 detect_stuttering ✅ Analysis complete in 5.87s
+ERROR 2025-11-15 11:31:09,314 tasks ❌ Processing failed for recording 16: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (41, SPEAK CLEARLY AND NATURAL SPEAK CLEARLY AND NATURAL, SPEAK CLEARLY AND NATURAL SPEAK CLEAAARLY AND NATURALY, [], 0, 0.45, null, null, null, none, 0.98, 5.87, wav2vec2-base-960h, 2025-11-15 06:01:09.31158+00, 16).
+
+INFO 2025-11-15 11:31:09,315 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186263347_converted.wav
+INFO 2025-11-15 11:31:17,483 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:31:25,989 tasks 🎯 Processing recording 19
+INFO 2025-11-15 11:31:26,064 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186419537.webm to WAV format...
+INFO 2025-11-15 11:31:26,141 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186419537_converted.wav
+INFO 2025-11-15 11:31:26,153 tasks 📏 Audio duration: 6.78 seconds
+INFO 2025-11-15 11:31:26,153 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:31:26,154 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:31:26,154 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186419537_converted.wav
+INFO 2025-11-15 11:31:28,112 detect_stuttering 📝 Generated target transcript: non began speak in english alkt
+INFO 2025-11-15 11:31:31,207 detect_stuttering ✅ Analysis complete in 5.05s
+ERROR 2025-11-15 11:31:31,210 tasks ❌ Processing failed for recording 19: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (42, NO BEGAN SPEAK IN ENGLISH ALG, NON BEGAN SPEAK IN ENGLISH ALKT, [], 0, 0.77, null, null, null, none, 0.96, 5.05, wav2vec2-base-960h, 2025-11-15 06:01:31.208419+00, 19).
+
+INFO 2025-11-15 11:31:31,211 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186419537_converted.wav
+INFO 2025-11-15 11:31:34,165 views Recording 20 uploaded by kpanfas6@gmail.com
+INFO 2025-11-15 11:31:34,165 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 100
+INFO 2025-11-15 11:31:34,165 tasks 🎯 Processing recording 20
+INFO 2025-11-15 11:31:34,245 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186494076.webm to WAV format...
+INFO 2025-11-15 11:31:34,335 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186494076_converted.wav
+INFO 2025-11-15 11:31:34,345 tasks 📏 Audio duration: 7.44 seconds
+INFO 2025-11-15 11:31:34,345 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:31:34,345 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:31:34,345 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186494076_converted.wav
+INFO 2025-11-15 11:31:36,313 detect_stuttering 📝 Generated target transcript: you can review your recording before aploading
+INFO 2025-11-15 11:31:37,287 basehttp "GET /diagnosis/api/status/20/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:31:39,228 basehttp "GET /diagnosis/api/status/20/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:31:39,472 detect_stuttering ✅ Analysis complete in 5.13s
+ERROR 2025-11-15 11:31:39,475 tasks ❌ Processing failed for recording 20: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (43, YOU CANT REVIUTE YOU WER RECORDING BEFORE A PU NODING, YOU CAN REVIEW YOUR RECORDING BEFORE APLOADING, ["T", "UT", " WE", " ", "U N"], 22, 1.06, null, null, null, mild, 0.84, 5.13, wav2vec2-base-960h, 2025-11-15 06:01:39.472949+00, 20).
+
+INFO 2025-11-15 11:31:39,475 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186494076_converted.wav
+INFO 2025-11-15 11:31:41,304 basehttp "GET /diagnosis/api/status/20/ HTTP/1.1" 200 449
+INFO 2025-11-15 11:32:04,975 tasks 🎯 Processing recording 17
+INFO 2025-11-15 11:32:05,040 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186331460.webm to WAV format...
+INFO 2025-11-15 11:32:05,112 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186331460_converted.wav
+INFO 2025-11-15 11:32:05,123 tasks 📏 Audio duration: 7.20 seconds
+INFO 2025-11-15 11:32:05,124 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:32:05,124 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:32:05,124 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186331460_converted.wav
+INFO 2025-11-15 11:32:06,752 detect_stuttering 📝 Generated target transcript: you can review your recording before upplading
+INFO 2025-11-15 11:32:09,552 detect_stuttering ✅ Analysis complete in 4.43s
+ERROR 2025-11-15 11:32:09,554 tasks ❌ Processing failed for recording 17: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (44, AH YOU CAN A REVIEW YOU WERE ACCORING BEFORE APPLADING, YOU CAN REVIEW YOUR RECORDING BEFORE UPPLADING, ["AH ", "A ", "WE", " A", "C", "A"], 24, 1.4, null, null, null, mild, 0.81, 4.43, wav2vec2-base-960h, 2025-11-15 06:02:09.553449+00, 17).
+
+INFO 2025-11-15 11:32:09,555 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186331460_converted.wav
+INFO 2025-11-15 11:32:38,215 tasks 🎯 Processing recording 18
+INFO 2025-11-15 11:32:38,280 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186360418.webm to WAV format...
+INFO 2025-11-15 11:32:38,358 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186360418_converted.wav
+INFO 2025-11-15 11:32:38,365 tasks 📏 Audio duration: 8.52 seconds
+INFO 2025-11-15 11:32:38,365 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:32:38,365 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:32:38,365 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186360418_converted.wav
+INFO 2025-11-15 11:32:40,385 detect_stuttering 📝 Generated target transcript: you can review your recording beforre uploading
+INFO 2025-11-15 11:32:43,909 detect_stuttering ✅ Analysis complete in 5.54s
+ERROR 2025-11-15 11:32:43,911 tasks ❌ Processing failed for recording 18: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (45, YOU CAN REVIEW YOU WERE RACCORDIN BEFRE APPLAUDING, YOU CAN REVIEW YOUR RECORDING BEFORRE UPLOADING, [" WE", "E", "A", "C", "A", "P", "U"], 19, 1.09, null, null, null, mild, 0.85, 5.54, wav2vec2-base-960h, 2025-11-15 06:02:43.909065+00, 18).
+
+INFO 2025-11-15 11:32:43,913 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186360418_converted.wav
+INFO 2025-11-15 11:32:43,928 tasks 🎯 Processing recording 20
+INFO 2025-11-15 11:32:44,006 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186494076.webm to WAV format...
+INFO 2025-11-15 11:32:44,086 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186494076_converted.wav
+INFO 2025-11-15 11:32:44,099 tasks 📏 Audio duration: 7.44 seconds
+INFO 2025-11-15 11:32:44,099 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:32:44,099 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:32:44,099 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186494076_converted.wav
+INFO 2025-11-15 11:32:45,797 detect_stuttering 📝 Generated target transcript: you can review your recording before aploading
+INFO 2025-11-15 11:32:48,786 detect_stuttering ✅ Analysis complete in 4.69s
+ERROR 2025-11-15 11:32:48,788 tasks ❌ Processing failed for recording 20: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (46, YOU CANT REVIUTE YOU WER RECORDING BEFORE A PU NODING, YOU CAN REVIEW YOUR RECORDING BEFORE APLOADING, ["T", "UT", " WE", " ", "U N"], 22, 1.06, null, null, null, mild, 0.84, 4.69, wav2vec2-base-960h, 2025-11-15 06:02:48.786663+00, 20).
+
+INFO 2025-11-15 11:32:48,788 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186494076_converted.wav
+INFO 2025-11-15 11:33:08,755 tasks 🎯 Processing recording 15
+INFO 2025-11-15 11:33:08,822 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186204743.webm to WAV format...
+INFO 2025-11-15 11:33:08,889 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186204743_converted.wav
+INFO 2025-11-15 11:33:08,901 tasks 📏 Audio duration: 5.34 seconds
+INFO 2025-11-15 11:33:08,901 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:33:08,901 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:33:08,901 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186204743_converted.wav
+INFO 2025-11-15 11:33:10,064 detect_stuttering 📝 Generated target transcript: starting recording i'm starting recording
+INFO 2025-11-15 11:33:12,089 detect_stuttering ✅ Analysis complete in 3.19s
+ERROR 2025-11-15 11:33:12,095 tasks ❌ Processing failed for recording 15: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (47, STARTING RAGOADIN AM STACTING RAGORDY, STARTING RECORDING I'M STARTING RECORDING, ["AG", "A", "A", "C", "AG"], 17, 1.03, null, null, null, mild, 0.86, 3.19, wav2vec2-base-960h, 2025-11-15 06:03:12.089084+00, 15).
+
+INFO 2025-11-15 11:33:12,095 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186204743_converted.wav
+INFO 2025-11-15 11:33:31,224 tasks 🎯 Processing recording 19
+INFO 2025-11-15 11:33:31,385 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186419537.webm to WAV format...
+INFO 2025-11-15 11:33:31,452 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186419537_converted.wav
+INFO 2025-11-15 11:33:31,462 tasks 📏 Audio duration: 6.78 seconds
+INFO 2025-11-15 11:33:31,462 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:33:31,462 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:33:31,462 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186419537_converted.wav
+INFO 2025-11-15 11:33:32,962 detect_stuttering 📝 Generated target transcript: non began speak in english alkt
+INFO 2025-11-15 11:33:35,561 detect_stuttering ✅ Analysis complete in 4.10s
+ERROR 2025-11-15 11:33:35,563 tasks ❌ Processing failed for recording 19: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (48, NO BEGAN SPEAK IN ENGLISH ALG, NON BEGAN SPEAK IN ENGLISH ALKT, [], 0, 0.77, null, null, null, none, 0.96, 4.1, wav2vec2-base-960h, 2025-11-15 06:03:35.561163+00, 19).
+
+INFO 2025-11-15 11:33:35,564 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186419537_converted.wav
+INFO 2025-11-15 11:33:59,576 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:34:09,333 tasks 🎯 Processing recording 16
+INFO 2025-11-15 11:34:09,411 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186263347.webm to WAV format...
+INFO 2025-11-15 11:34:09,495 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186263347_converted.wav
+INFO 2025-11-15 11:34:09,511 tasks 📏 Audio duration: 8.82 seconds
+INFO 2025-11-15 11:34:09,511 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:34:09,511 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:34:09,511 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186263347_converted.wav
+INFO 2025-11-15 11:34:11,600 detect_stuttering 📝 Generated target transcript: speak clearly and natural speak cleaaarly and naturaly
+INFO 2025-11-15 11:34:15,664 detect_stuttering ✅ Analysis complete in 6.15s
+ERROR 2025-11-15 11:34:15,666 tasks ❌ Processing failed for recording 16: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (49, SPEAK CLEARLY AND NATURAL SPEAK CLEARLY AND NATURAL, SPEAK CLEARLY AND NATURAL SPEAK CLEAAARLY AND NATURALY, [], 0, 0.45, null, null, null, none, 0.98, 6.15, wav2vec2-base-960h, 2025-11-15 06:04:15.665782+00, 16).
+
+INFO 2025-11-15 11:34:15,667 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186263347_converted.wav
+INFO 2025-11-15 11:34:23,152 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:34:34,181 views Recording 21 uploaded by kpanfas6@gmail.com
+INFO 2025-11-15 11:34:34,194 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 100
+INFO 2025-11-15 11:34:34,194 tasks 🎯 Processing recording 21
+INFO 2025-11-15 11:34:34,271 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186674113.webm to WAV format...
+INFO 2025-11-15 11:34:34,356 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186674113_converted.wav
+INFO 2025-11-15 11:34:34,367 tasks 📏 Audio duration: 5.94 seconds
+INFO 2025-11-15 11:34:34,367 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:34:34,368 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:34:34,368 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186674113_converted.wav
+INFO 2025-11-15 11:34:35,721 detect_stuttering 📝 Generated target transcript: we have to play this loudlagokay
+INFO 2025-11-15 11:34:36,348 basehttp "GET /diagnosis/api/status/21/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:34:38,047 detect_stuttering ✅ Analysis complete in 3.68s
+ERROR 2025-11-15 11:34:38,050 tasks ❌ Processing failed for recording 21: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (50, WE HAVE TO PLAY THIS LOUDLY AUGE, WE HAVE TO PLAY THIS LOUDLAGOKAY, ["Y ", "U"], 9, 1.41, null, null, null, none, 0.88, 3.68, wav2vec2-base-960h, 2025-11-15 06:04:38.0479+00, 21).
+
+INFO 2025-11-15 11:34:38,051 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186674113_converted.wav
+INFO 2025-11-15 11:34:38,290 basehttp "GET /diagnosis/api/status/21/ HTTP/1.1" 200 386
+INFO 2025-11-15 11:34:48,811 tasks 🎯 Processing recording 20
+INFO 2025-11-15 11:34:48,876 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186494076.webm to WAV format...
+INFO 2025-11-15 11:34:48,950 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186494076_converted.wav
+INFO 2025-11-15 11:34:48,960 tasks 📏 Audio duration: 7.44 seconds
+INFO 2025-11-15 11:34:48,960 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:34:48,960 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:34:48,961 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186494076_converted.wav
+INFO 2025-11-15 11:34:50,719 detect_stuttering 📝 Generated target transcript: you can review your recording before aploading
+INFO 2025-11-15 11:34:53,733 detect_stuttering ✅ Analysis complete in 4.77s
+ERROR 2025-11-15 11:34:53,736 tasks ❌ Processing failed for recording 20: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (51, YOU CANT REVIUTE YOU WER RECORDING BEFORE A PU NODING, YOU CAN REVIEW YOUR RECORDING BEFORE APLOADING, ["T", "UT", " WE", " ", "U N"], 22, 1.06, null, null, null, mild, 0.84, 4.77, wav2vec2-base-960h, 2025-11-15 06:04:53.734107+00, 20).
+
+INFO 2025-11-15 11:34:53,737 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186494076_converted.wav
+INFO 2025-11-15 11:35:03,264 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:35:09,583 tasks 🎯 Processing recording 17
+INFO 2025-11-15 11:35:09,662 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186331460.webm to WAV format...
+INFO 2025-11-15 11:35:09,733 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186331460_converted.wav
+INFO 2025-11-15 11:35:09,744 tasks 📏 Audio duration: 7.20 seconds
+INFO 2025-11-15 11:35:09,744 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:35:09,744 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:35:09,744 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186331460_converted.wav
+INFO 2025-11-15 11:35:11,285 detect_stuttering 📝 Generated target transcript: you can review your recording before upplading
+INFO 2025-11-15 11:35:14,443 detect_stuttering ✅ Analysis complete in 4.70s
+ERROR 2025-11-15 11:35:14,446 tasks ❌ Processing failed for recording 17: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (52, AH YOU CAN A REVIEW YOU WERE ACCORING BEFORE APPLADING, YOU CAN REVIEW YOUR RECORDING BEFORE UPPLADING, ["AH ", "A ", "WE", " A", "C", "A"], 24, 1.4, null, null, null, mild, 0.81, 4.7, wav2vec2-base-960h, 2025-11-15 06:05:14.444537+00, 17).
+
+INFO 2025-11-15 11:35:14,447 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186331460_converted.wav
+INFO 2025-11-15 11:35:18,471 views Recording 22 uploaded by kpanfas6@gmail.com
+INFO 2025-11-15 11:35:18,472 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 100
+INFO 2025-11-15 11:35:18,473 tasks 🎯 Processing recording 22
+INFO 2025-11-15 11:35:18,549 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186718394.webm to WAV format...
+INFO 2025-11-15 11:35:18,625 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186718394_converted.wav
+INFO 2025-11-15 11:35:18,636 tasks 📏 Audio duration: 4.80 seconds
+INFO 2025-11-15 11:35:18,637 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:35:18,637 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:35:18,637 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186718394_converted.wav
+INFO 2025-11-15 11:35:19,761 detect_stuttering 📝 Generated target transcript: you have to speak clarly
+INFO 2025-11-15 11:35:21,345 basehttp "GET /diagnosis/api/status/22/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:35:22,037 detect_stuttering ✅ Analysis complete in 3.40s
+ERROR 2025-11-15 11:35:22,039 tasks ❌ Processing failed for recording 22: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (53, YOU HOW TO SPEAK LERLY, YOU HAVE TO SPEAK CLARLY, ["OW", "E"], 12, 1.65, null, null, null, mild, 0.86, 3.4, wav2vec2-base-960h, 2025-11-15 06:05:22.038528+00, 22).
+
+INFO 2025-11-15 11:35:22,040 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186718394_converted.wav
+INFO 2025-11-15 11:35:23,313 basehttp "GET /diagnosis/api/status/22/ HTTP/1.1" 200 370
+INFO 2025-11-15 11:35:38,068 tasks 🎯 Processing recording 21
+INFO 2025-11-15 11:35:38,228 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186674113.webm to WAV format...
+INFO 2025-11-15 11:35:38,302 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186674113_converted.wav
+INFO 2025-11-15 11:35:38,313 tasks 📏 Audio duration: 5.94 seconds
+INFO 2025-11-15 11:35:38,313 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:35:38,313 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:35:38,313 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186674113_converted.wav
+INFO 2025-11-15 11:35:39,638 detect_stuttering 📝 Generated target transcript: we have to play this loudlagokay
+INFO 2025-11-15 11:35:41,949 detect_stuttering ✅ Analysis complete in 3.64s
+ERROR 2025-11-15 11:35:41,951 tasks ❌ Processing failed for recording 21: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (54, WE HAVE TO PLAY THIS LOUDLY AUGE, WE HAVE TO PLAY THIS LOUDLAGOKAY, ["Y ", "U"], 9, 1.41, null, null, null, none, 0.88, 3.64, wav2vec2-base-960h, 2025-11-15 06:05:41.950313+00, 21).
+
+INFO 2025-11-15 11:35:41,952 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186674113_converted.wav
+INFO 2025-11-15 11:35:43,928 tasks 🎯 Processing recording 18
+INFO 2025-11-15 11:35:43,989 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186360418.webm to WAV format...
+INFO 2025-11-15 11:35:44,072 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186360418_converted.wav
+INFO 2025-11-15 11:35:44,082 tasks 📏 Audio duration: 8.52 seconds
+INFO 2025-11-15 11:35:44,082 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:35:44,082 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:35:44,082 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186360418_converted.wav
+INFO 2025-11-15 11:35:46,172 detect_stuttering 📝 Generated target transcript: you can review your recording beforre uploading
+INFO 2025-11-15 11:35:49,663 detect_stuttering ✅ Analysis complete in 5.58s
+ERROR 2025-11-15 11:35:49,672 tasks ❌ Processing failed for recording 18: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (55, YOU CAN REVIEW YOU WERE RACCORDIN BEFRE APPLAUDING, YOU CAN REVIEW YOUR RECORDING BEFORRE UPLOADING, [" WE", "E", "A", "C", "A", "P", "U"], 19, 1.09, null, null, null, mild, 0.85, 5.58, wav2vec2-base-960h, 2025-11-15 06:05:49.663034+00, 18).
+
+INFO 2025-11-15 11:35:49,672 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186360418_converted.wav
+INFO 2025-11-15 11:36:22,061 tasks 🎯 Processing recording 22
+INFO 2025-11-15 11:36:22,226 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186718394.webm to WAV format...
+INFO 2025-11-15 11:36:22,289 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186718394_converted.wav
+INFO 2025-11-15 11:36:22,301 tasks 📏 Audio duration: 4.80 seconds
+INFO 2025-11-15 11:36:22,301 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:36:22,301 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:36:22,302 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186718394_converted.wav
+INFO 2025-11-15 11:36:23,438 detect_stuttering 📝 Generated target transcript: you have to speak clarly
+INFO 2025-11-15 11:36:25,288 detect_stuttering ✅ Analysis complete in 2.98s
+ERROR 2025-11-15 11:36:25,290 tasks ❌ Processing failed for recording 22: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (56, YOU HOW TO SPEAK LERLY, YOU HAVE TO SPEAK CLARLY, ["OW", "E"], 12, 1.65, null, null, null, mild, 0.86, 2.98, wav2vec2-base-960h, 2025-11-15 06:06:25.288385+00, 22).
+
+INFO 2025-11-15 11:36:25,290 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186718394_converted.wav
+INFO 2025-11-15 11:36:35,557 tasks 🎯 Processing recording 19
+INFO 2025-11-15 11:36:35,622 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186419537.webm to WAV format...
+INFO 2025-11-15 11:36:35,692 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186419537_converted.wav
+INFO 2025-11-15 11:36:35,702 tasks 📏 Audio duration: 6.78 seconds
+INFO 2025-11-15 11:36:35,702 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:36:35,702 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:36:35,702 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186419537_converted.wav
+INFO 2025-11-15 11:36:37,269 detect_stuttering 📝 Generated target transcript: non began speak in english alkt
+INFO 2025-11-15 11:36:39,958 detect_stuttering ✅ Analysis complete in 4.25s
+ERROR 2025-11-15 11:36:39,958 tasks ❌ Processing failed for recording 19: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (57, NO BEGAN SPEAK IN ENGLISH ALG, NON BEGAN SPEAK IN ENGLISH ALKT, [], 0, 0.77, null, null, null, none, 0.96, 4.25, wav2vec2-base-960h, 2025-11-15 06:06:39.958068+00, 19).
+
+INFO 2025-11-15 11:36:39,958 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186419537_converted.wav
+INFO 2025-11-15 11:36:54,532 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:37:05,991 views Recording 23 uploaded by kpanfas6@gmail.com
+INFO 2025-11-15 11:37:05,994 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 100
+INFO 2025-11-15 11:37:05,995 tasks 🎯 Processing recording 23
+INFO 2025-11-15 11:37:06,067 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186825897.webm to WAV format...
+INFO 2025-11-15 11:37:06,147 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186825897_converted.wav
+INFO 2025-11-15 11:37:06,165 tasks 📏 Audio duration: 5.82 seconds
+INFO 2025-11-15 11:37:06,166 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:37:06,166 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:37:06,166 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186825897_converted.wav
+INFO 2025-11-15 11:37:07,502 detect_stuttering 📝 Generated target transcript: hollo this is unfair
+INFO 2025-11-15 11:37:08,239 basehttp "GET /diagnosis/api/status/23/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:37:09,727 detect_stuttering ✅ Analysis complete in 3.56s
+ERROR 2025-11-15 11:37:09,727 tasks ❌ Processing failed for recording 23: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (58, HALLO DISIS HUNSAER, HOLLO THIS IS UNFAIR, ["A", "D", "H", "S", "E"], 25, 1.23, null, null, null, moderate, 0.81, 3.56, wav2vec2-base-960h, 2025-11-15 06:07:09.727579+00, 23).
+
+INFO 2025-11-15 11:37:09,727 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186825897_converted.wav
+INFO 2025-11-15 11:37:10,057 basehttp "GET /diagnosis/api/status/23/ HTTP/1.1" 200 388
+INFO 2025-11-15 11:37:20,063 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:37:39,091 views Recording 24 uploaded by kpanfas6@gmail.com
+INFO 2025-11-15 11:37:39,092 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 100
+INFO 2025-11-15 11:37:39,095 tasks 🎯 Processing recording 24
+INFO 2025-11-15 11:37:39,169 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186859013.webm to WAV format...
+INFO 2025-11-15 11:37:39,267 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186859013_converted.wav
+INFO 2025-11-15 11:37:39,277 tasks 📏 Audio duration: 6.90 seconds
+INFO 2025-11-15 11:37:39,277 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:37:39,278 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:37:39,278 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186859013_converted.wav
+INFO 2025-11-15 11:37:40,792 detect_stuttering 📝 Generated target transcript: you can review your recordings before uploady
+INFO 2025-11-15 11:37:41,215 basehttp "GET /diagnosis/api/status/24/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:37:41,978 tasks 🎯 Processing recording 21
+INFO 2025-11-15 11:37:42,138 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186674113.webm to WAV format...
+INFO 2025-11-15 11:37:42,269 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186674113_converted.wav
+INFO 2025-11-15 11:37:42,309 tasks 📏 Audio duration: 5.94 seconds
+INFO 2025-11-15 11:37:42,311 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:37:42,311 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:37:42,311 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186674113_converted.wav
+INFO 2025-11-15 11:37:43,463 basehttp "GET /diagnosis/api/status/24/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:37:44,864 detect_stuttering ✅ Analysis complete in 5.59s
+ERROR 2025-11-15 11:37:44,868 tasks ❌ Processing failed for recording 24: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (59, YOU CAN REVIEW YOU WURE VER ACCORDING BEFORE APLORDI, YOU CAN REVIEW YOUR RECORDINGS BEFORE UPLOADY, [" WU", "E", "VE", " A", "C", "A", "R"], 24, 1.31, null, null, null, mild, 0.81, 5.59, wav2vec2-base-960h, 2025-11-15 06:07:44.866058+00, 24).
+
+INFO 2025-11-15 11:37:44,869 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186859013_converted.wav
+INFO 2025-11-15 11:37:44,972 detect_stuttering 📝 Generated target transcript: we have to play this loudlagokay
+INFO 2025-11-15 11:37:45,248 basehttp "GET /diagnosis/api/status/24/ HTTP/1.1" 200 460
+INFO 2025-11-15 11:37:47,581 detect_stuttering ✅ Analysis complete in 5.27s
+ERROR 2025-11-15 11:37:47,583 tasks ❌ Processing failed for recording 21: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (60, WE HAVE TO PLAY THIS LOUDLY AUGE, WE HAVE TO PLAY THIS LOUDLAGOKAY, ["Y ", "U"], 9, 1.41, null, null, null, none, 0.88, 5.27, wav2vec2-base-960h, 2025-11-15 06:07:47.581325+00, 21).
+
+INFO 2025-11-15 11:37:47,583 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186674113_converted.wav
+INFO 2025-11-15 11:37:53,744 tasks 🎯 Processing recording 20
+INFO 2025-11-15 11:37:53,812 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186494076.webm to WAV format...
+INFO 2025-11-15 11:37:53,888 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186494076_converted.wav
+INFO 2025-11-15 11:37:53,899 tasks 📏 Audio duration: 7.44 seconds
+INFO 2025-11-15 11:37:53,899 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:37:53,899 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:37:53,900 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186494076_converted.wav
+INFO 2025-11-15 11:37:55,715 detect_stuttering 📝 Generated target transcript: you can review your recording before aploading
+INFO 2025-11-15 11:37:58,829 detect_stuttering ✅ Analysis complete in 4.93s
+ERROR 2025-11-15 11:37:58,832 tasks ❌ Processing failed for recording 20: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (61, YOU CANT REVIUTE YOU WER RECORDING BEFORE A PU NODING, YOU CAN REVIEW YOUR RECORDING BEFORE APLOADING, ["T", "UT", " WE", " ", "U N"], 22, 1.06, null, null, null, mild, 0.84, 4.93, wav2vec2-base-960h, 2025-11-15 06:07:58.830399+00, 20).
+
+INFO 2025-11-15 11:37:58,833 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186494076_converted.wav
+INFO 2025-11-15 11:38:09,736 tasks 🎯 Processing recording 23
+INFO 2025-11-15 11:38:09,808 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186825897.webm to WAV format...
+INFO 2025-11-15 11:38:09,880 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186825897_converted.wav
+INFO 2025-11-15 11:38:09,890 tasks 📏 Audio duration: 5.82 seconds
+INFO 2025-11-15 11:38:09,890 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:38:09,891 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:38:09,891 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186825897_converted.wav
+INFO 2025-11-15 11:38:11,201 detect_stuttering 📝 Generated target transcript: hollo this is unfair
+INFO 2025-11-15 11:38:13,403 detect_stuttering ✅ Analysis complete in 3.51s
+ERROR 2025-11-15 11:38:13,407 tasks ❌ Processing failed for recording 23: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (62, HALLO DISIS HUNSAER, HOLLO THIS IS UNFAIR, ["A", "D", "H", "S", "E"], 25, 1.23, null, null, null, moderate, 0.81, 3.51, wav2vec2-base-960h, 2025-11-15 06:08:13.405594+00, 23).
+
+INFO 2025-11-15 11:38:13,407 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186825897_converted.wav
+INFO 2025-11-15 11:38:25,303 tasks 🎯 Processing recording 22
+INFO 2025-11-15 11:38:25,366 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186718394.webm to WAV format...
+INFO 2025-11-15 11:38:25,431 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186718394_converted.wav
+INFO 2025-11-15 11:38:25,442 tasks 📏 Audio duration: 4.80 seconds
+INFO 2025-11-15 11:38:25,442 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:38:25,442 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:38:25,442 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186718394_converted.wav
+INFO 2025-11-15 11:38:26,558 detect_stuttering 📝 Generated target transcript: you have to speak clarly
+INFO 2025-11-15 11:38:28,460 detect_stuttering ✅ Analysis complete in 3.02s
+ERROR 2025-11-15 11:38:28,462 tasks ❌ Processing failed for recording 22: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (63, YOU HOW TO SPEAK LERLY, YOU HAVE TO SPEAK CLARLY, ["OW", "E"], 12, 1.65, null, null, null, mild, 0.86, 3.02, wav2vec2-base-960h, 2025-11-15 06:08:28.460752+00, 22).
+
+INFO 2025-11-15 11:38:28,463 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186718394_converted.wav
+INFO 2025-11-15 11:38:32,618 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 11:38:44,884 tasks 🎯 Processing recording 24
+INFO 2025-11-15 11:38:45,059 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186859013.webm to WAV format...
+INFO 2025-11-15 11:38:45,139 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186859013_converted.wav
+INFO 2025-11-15 11:38:45,151 tasks 📏 Audio duration: 6.90 seconds
+INFO 2025-11-15 11:38:45,151 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:38:45,151 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:38:45,151 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186859013_converted.wav
+INFO 2025-11-15 11:38:46,861 detect_stuttering 📝 Generated target transcript: you can review your recordings before uploady
+INFO 2025-11-15 11:38:47,004 views Recording 25 uploaded by kpanfas6@gmail.com
+INFO 2025-11-15 11:38:47,004 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 100
+INFO 2025-11-15 11:38:47,014 tasks 🎯 Processing recording 25
+INFO 2025-11-15 11:38:47,164 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186926731.webm to WAV format...
+INFO 2025-11-15 11:38:47,378 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186926731_converted.wav
+INFO 2025-11-15 11:38:47,400 tasks 📏 Audio duration: 5.46 seconds
+INFO 2025-11-15 11:38:47,400 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:38:47,402 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:38:47,402 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186926731_converted.wav
+INFO 2025-11-15 11:38:49,621 basehttp "GET /diagnosis/api/status/25/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:38:50,149 detect_stuttering 📝 Generated target transcript: you can review your recording before uploading
+INFO 2025-11-15 11:38:51,328 basehttp "GET /diagnosis/api/status/25/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:38:51,969 detect_stuttering ✅ Analysis complete in 6.82s
+ERROR 2025-11-15 11:38:51,973 tasks ❌ Processing failed for recording 24: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (64, YOU CAN REVIEW YOU WURE VER ACCORDING BEFORE APLORDI, YOU CAN REVIEW YOUR RECORDINGS BEFORE UPLOADY, [" WU", "E", "VE", " A", "C", "A", "R"], 24, 1.31, null, null, null, mild, 0.81, 6.82, wav2vec2-base-960h, 2025-11-15 06:08:51.97011+00, 24).
+
+INFO 2025-11-15 11:38:51,974 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186859013_converted.wav
+INFO 2025-11-15 11:38:53,260 basehttp "GET /diagnosis/api/status/25/ HTTP/1.1" 200 55
+INFO 2025-11-15 11:38:53,389 detect_stuttering ✅ Analysis complete in 5.99s
+ERROR 2025-11-15 11:38:53,391 tasks ❌ Processing failed for recording 25: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (65, YOU CAN REGOU OUERA ACCORDING BE THOUGHT ABLODIN, YOU CAN REVIEW YOUR RECORDING BEFORE UPLOADING, ["GOU", "E", "A", "A", "C", " TH", "UGHT", "AB"], 35, 1.74, null, null, null, moderate, 0.74, 5.99, wav2vec2-base-960h, 2025-11-15 06:08:53.390677+00, 25).
+
+INFO 2025-11-15 11:38:53,392 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186926731_converted.wav
+INFO 2025-11-15 11:38:55,294 basehttp "GET /diagnosis/api/status/25/ HTTP/1.1" 200 472
+INFO 2025-11-15 11:39:53,408 tasks 🎯 Processing recording 25
+INFO 2025-11-15 11:39:53,475 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186926731.webm to WAV format...
+INFO 2025-11-15 11:39:53,544 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186926731_converted.wav
+INFO 2025-11-15 11:39:53,556 tasks 📏 Audio duration: 5.46 seconds
+INFO 2025-11-15 11:39:53,556 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:39:53,556 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:39:53,557 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186926731_converted.wav
+INFO 2025-11-15 11:39:54,746 detect_stuttering 📝 Generated target transcript: you can review your recording before uploading
+INFO 2025-11-15 11:39:56,830 detect_stuttering ✅ Analysis complete in 3.27s
+ERROR 2025-11-15 11:39:56,833 tasks ❌ Processing failed for recording 25: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (66, YOU CAN REGOU OUERA ACCORDING BE THOUGHT ABLODIN, YOU CAN REVIEW YOUR RECORDING BEFORE UPLOADING, ["GOU", "E", "A", "A", "C", " TH", "UGHT", "AB"], 35, 1.74, null, null, null, moderate, 0.74, 3.27, wav2vec2-base-960h, 2025-11-15 06:09:56.832652+00, 25).
+
+INFO 2025-11-15 11:39:56,834 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186926731_converted.wav
+INFO 2025-11-15 11:40:13,414 tasks 🎯 Processing recording 23
+INFO 2025-11-15 11:40:13,480 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186825897.webm to WAV format...
+INFO 2025-11-15 11:40:13,547 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186825897_converted.wav
+INFO 2025-11-15 11:40:13,556 tasks 📏 Audio duration: 5.82 seconds
+INFO 2025-11-15 11:40:13,556 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:40:13,556 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:40:13,556 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186825897_converted.wav
+INFO 2025-11-15 11:40:14,884 detect_stuttering 📝 Generated target transcript: hollo this is unfair
+INFO 2025-11-15 11:40:17,096 detect_stuttering ✅ Analysis complete in 3.54s
+ERROR 2025-11-15 11:40:17,098 tasks ❌ Processing failed for recording 23: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (67, HALLO DISIS HUNSAER, HOLLO THIS IS UNFAIR, ["A", "D", "H", "S", "E"], 25, 1.23, null, null, null, moderate, 0.81, 3.54, wav2vec2-base-960h, 2025-11-15 06:10:17.096216+00, 23).
+
+INFO 2025-11-15 11:40:17,098 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186825897_converted.wav
+INFO 2025-11-15 11:40:47,616 tasks 🎯 Processing recording 21
+INFO 2025-11-15 11:40:47,680 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186674113.webm to WAV format...
+INFO 2025-11-15 11:40:47,747 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186674113_converted.wav
+INFO 2025-11-15 11:40:47,757 tasks 📏 Audio duration: 5.94 seconds
+INFO 2025-11-15 11:40:47,757 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:40:47,757 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:40:47,758 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186674113_converted.wav
+INFO 2025-11-15 11:40:49,066 detect_stuttering 📝 Generated target transcript: we have to play this loudlagokay
+INFO 2025-11-15 11:40:51,284 detect_stuttering ✅ Analysis complete in 3.53s
+ERROR 2025-11-15 11:40:51,287 tasks ❌ Processing failed for recording 21: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (68, WE HAVE TO PLAY THIS LOUDLY AUGE, WE HAVE TO PLAY THIS LOUDLAGOKAY, ["Y ", "U"], 9, 1.41, null, null, null, none, 0.88, 3.53, wav2vec2-base-960h, 2025-11-15 06:10:51.284065+00, 21).
+
+INFO 2025-11-15 11:40:51,287 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186674113_converted.wav
+INFO 2025-11-15 11:40:51,990 tasks 🎯 Processing recording 24
+INFO 2025-11-15 11:40:52,059 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186859013.webm to WAV format...
+INFO 2025-11-15 11:40:52,125 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186859013_converted.wav
+INFO 2025-11-15 11:40:52,136 tasks 📏 Audio duration: 6.90 seconds
+INFO 2025-11-15 11:40:52,136 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:40:52,136 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:40:52,136 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186859013_converted.wav
+INFO 2025-11-15 11:40:53,691 detect_stuttering 📝 Generated target transcript: you can review your recordings before uploady
+INFO 2025-11-15 11:40:56,353 detect_stuttering ✅ Analysis complete in 4.22s
+ERROR 2025-11-15 11:40:56,364 tasks ❌ Processing failed for recording 24: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (69, YOU CAN REVIEW YOU WURE VER ACCORDING BEFORE APLORDI, YOU CAN REVIEW YOUR RECORDINGS BEFORE UPLOADY, [" WU", "E", "VE", " A", "C", "A", "R"], 24, 1.31, null, null, null, mild, 0.81, 4.22, wav2vec2-base-960h, 2025-11-15 06:10:56.363776+00, 24).
+
+INFO 2025-11-15 11:40:56,366 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186859013_converted.wav
+INFO 2025-11-15 11:41:28,474 tasks 🎯 Processing recording 22
+INFO 2025-11-15 11:41:28,541 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186718394.webm to WAV format...
+INFO 2025-11-15 11:41:28,603 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186718394_converted.wav
+INFO 2025-11-15 11:41:28,615 tasks 📏 Audio duration: 4.80 seconds
+INFO 2025-11-15 11:41:28,616 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:41:28,616 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:41:28,616 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186718394_converted.wav
+INFO 2025-11-15 11:41:29,710 detect_stuttering 📝 Generated target transcript: you have to speak clarly
+INFO 2025-11-15 11:41:31,584 detect_stuttering ✅ Analysis complete in 2.97s
+ERROR 2025-11-15 11:41:31,585 tasks ❌ Processing failed for recording 22: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (70, YOU HOW TO SPEAK LERLY, YOU HAVE TO SPEAK CLARLY, ["OW", "E"], 12, 1.65, null, null, null, mild, 0.86, 2.97, wav2vec2-base-960h, 2025-11-15 06:11:31.585077+00, 22).
+
+INFO 2025-11-15 11:41:31,587 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186718394_converted.wav
+INFO 2025-11-15 11:41:56,855 tasks 🎯 Processing recording 25
+INFO 2025-11-15 11:41:56,933 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186926731.webm to WAV format...
+INFO 2025-11-15 11:41:57,000 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186926731_converted.wav
+INFO 2025-11-15 11:41:57,011 tasks 📏 Audio duration: 5.46 seconds
+INFO 2025-11-15 11:41:57,011 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:41:57,011 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:41:57,012 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186926731_converted.wav
+INFO 2025-11-15 11:41:58,323 detect_stuttering 📝 Generated target transcript: you can review your recording before uploading
+INFO 2025-11-15 11:42:00,405 detect_stuttering ✅ Analysis complete in 3.39s
+ERROR 2025-11-15 11:42:00,406 tasks ❌ Processing failed for recording 25: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (71, YOU CAN REGOU OUERA ACCORDING BE THOUGHT ABLODIN, YOU CAN REVIEW YOUR RECORDING BEFORE UPLOADING, ["GOU", "E", "A", "A", "C", " TH", "UGHT", "AB"], 35, 1.74, null, null, null, moderate, 0.74, 3.39, wav2vec2-base-960h, 2025-11-15 06:12:00.405759+00, 25).
+
+INFO 2025-11-15 11:42:00,407 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186926731_converted.wav
+INFO 2025-11-15 11:43:17,115 tasks 🎯 Processing recording 23
+INFO 2025-11-15 11:43:17,181 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186825897.webm to WAV format...
+INFO 2025-11-15 11:43:17,252 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186825897_converted.wav
+INFO 2025-11-15 11:43:17,262 tasks 📏 Audio duration: 5.82 seconds
+INFO 2025-11-15 11:43:17,262 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:43:17,262 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:43:17,263 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186825897_converted.wav
+INFO 2025-11-15 11:43:18,543 detect_stuttering 📝 Generated target transcript: hollo this is unfair
+INFO 2025-11-15 11:43:20,590 detect_stuttering ✅ Analysis complete in 3.33s
+ERROR 2025-11-15 11:43:20,593 tasks ❌ Processing failed for recording 23: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (72, HALLO DISIS HUNSAER, HOLLO THIS IS UNFAIR, ["A", "D", "H", "S", "E"], 25, 1.23, null, null, null, moderate, 0.81, 3.33, wav2vec2-base-960h, 2025-11-15 06:13:20.590394+00, 23).
+
+INFO 2025-11-15 11:43:20,593 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186825897_converted.wav
+INFO 2025-11-15 11:43:56,381 tasks 🎯 Processing recording 24
+INFO 2025-11-15 11:43:56,445 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186859013.webm to WAV format...
+INFO 2025-11-15 11:43:56,517 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186859013_converted.wav
+INFO 2025-11-15 11:43:56,528 tasks 📏 Audio duration: 6.90 seconds
+INFO 2025-11-15 11:43:56,528 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:43:56,528 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:43:56,528 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186859013_converted.wav
+INFO 2025-11-15 11:43:58,140 detect_stuttering 📝 Generated target transcript: you can review your recordings before uploady
+INFO 2025-11-15 11:44:00,813 detect_stuttering ✅ Analysis complete in 4.28s
+ERROR 2025-11-15 11:44:00,815 tasks ❌ Processing failed for recording 24: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (73, YOU CAN REVIEW YOU WURE VER ACCORDING BEFORE APLORDI, YOU CAN REVIEW YOUR RECORDINGS BEFORE UPLOADY, [" WU", "E", "VE", " A", "C", "A", "R"], 24, 1.31, null, null, null, mild, 0.81, 4.28, wav2vec2-base-960h, 2025-11-15 06:14:00.81322+00, 24).
+
+INFO 2025-11-15 11:44:00,815 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186859013_converted.wav
+INFO 2025-11-15 11:45:00,427 tasks 🎯 Processing recording 25
+INFO 2025-11-15 11:45:00,510 utils 🔄 Converting C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186926731.webm to WAV format...
+INFO 2025-11-15 11:45:00,570 utils ✅ Converted to: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186926731_converted.wav
+INFO 2025-11-15 11:45:00,584 tasks 📏 Audio duration: 5.46 seconds
+INFO 2025-11-15 11:45:00,584 tasks 🤖 Loading AI models...
+INFO 2025-11-15 11:45:00,584 tasks 🎵 Analyzing audio with AI...
+INFO 2025-11-15 11:45:00,584 detect_stuttering 🎯 Starting analysis for: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186926731_converted.wav
+INFO 2025-11-15 11:45:01,793 detect_stuttering 📝 Generated target transcript: you can review your recording before uploading
+INFO 2025-11-15 11:45:03,852 detect_stuttering ✅ Analysis complete in 3.27s
+ERROR 2025-11-15 11:45:03,852 tasks ❌ Processing failed for recording 25: null value in column "stutter_timestamps" of relation "diagnosis_analysisresult" violates not-null constraint
+DETAIL:  Failing row contains (74, YOU CAN REGOU OUERA ACCORDING BE THOUGHT ABLODIN, YOU CAN REVIEW YOUR RECORDING BEFORE UPLOADING, ["GOU", "E", "A", "A", "C", " TH", "UGHT", "AB"], 35, 1.74, null, null, null, moderate, 0.74, 3.27, wav2vec2-base-960h, 2025-11-15 06:15:03.85288+00, 25).
+
+INFO 2025-11-15 11:45:03,852 utils 🗑️ Cleaned up converted file: C:\Users\kpanfas\Desktop\slaq\slaq-version-d-to-a\slaq-version-d\media\recordings\3\2025\11\recording_1763186926731_converted.wav
+INFO 2025-11-15 19:07:48,607 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-15 19:07:52,295 basehttp "GET /diagnosis/recordings/ HTTP/1.1" 200 108466
+INFO 2025-11-15 19:07:59,945 basehttp "GET /diagnosis/recordings/?status=pending HTTP/1.1" 200 13451
+INFO 2025-11-15 19:08:01,193 basehttp "GET /diagnosis/recordings/?status=completed HTTP/1.1" 200 14061
+INFO 2025-11-15 19:08:06,169 basehttp "GET /diagnosis/recordings/4/ HTTP/1.1" 200 11977
+WARNING 2025-11-15 19:08:06,689 log Not Found: /media/recordings/3/2025/11/recording_1762684761573.webm
+WARNING 2025-11-15 19:08:06,689 basehttp "GET /media/recordings/3/2025/11/recording_1762684761573.webm HTTP/1.1" 404 3769
+WARNING 2025-11-15 19:08:06,717 log Not Found: /media/recordings/3/2025/11/recording_1762684761573.webm
+WARNING 2025-11-15 19:08:06,728 basehttp "GET /media/recordings/3/2025/11/recording_1762684761573.webm HTTP/1.1" 404 3769
+INFO 2025-11-15 19:08:09,844 basehttp "GET /diagnosis/analysis/1/ HTTP/1.1" 200 15920
+INFO 2025-11-15 19:08:09,984 basehttp "GET /static/js/analysis-charts.js HTTP/1.1" 200 9170
+INFO 2025-11-15 19:33:43,170 basehttp "GET /dashboard/ HTTP/1.1" 200 17765
